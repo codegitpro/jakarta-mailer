@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SendEmail",
+            "request": "launch",
+            "mainClass": "com.mail.app.SendEmail",
+            "projectName": "mail-app"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PlainTextEmailSender<mail-app>",
+            "request": "launch",
+            "mainClass": "com.mail.app.PlainTextEmailSender",
+            "projectName": "mail-app"
+        }
+    ]
+}
